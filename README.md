@@ -36,5 +36,31 @@ To support our workflow, we’ll create and manage a local virtual environment. 
 ### **Step 5: Manage Dependencies**
 Install essential Python packages including `jupyterlab`, `numpy`, `pandas`, `pyarrow`, `matplotlib`, `seaborn`, and `scipy` for data exploration, analysis, and visualization. To ensure reproducibility and ease of setup, list all dependencies in a `requirements.txt` file.
 
+### Step 6: Setting Up spaCy with a Virtual Environment (Optional but Recommended)
 
+For natural language processing tasks in this project, we recommend using [spaCy](https://spacy.io/usage) as a lightweight and efficient alternative to TensorFlow.
+
+To ensure compatibility, we suggest using **Python 3.12.x** (e.g., 3.12.6), as spaCy may not install correctly with Python 3.13+.
+
+#### Create and Activate a Virtual Environment
+
+**On Windows:**
+```bash
+py -3.12 -m venv .venv
+.venv\Scripts\activate
+py -m pip install -U pip setuptools wheel
+py -m pip install -U spacy==3.5.3
+py -m spacy download en_core_web_sm
+```
+
+**On macOS/Linux:**
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -U pip setuptools wheel
+python3 -m pip install -U spacy==3.5.3
+python3 -m spacy download en_core_web_sm
+```
+
+>  If you're using a different OS or configuration, refer to the official [spaCy installation guide](https://spacy.io/usage) for adjustments.
 
