@@ -1,4 +1,16 @@
-# datafun-07-ml
+# Guided Project: Predictive ML
+**Author**: Kiruthikaa NS  
+**Repo Name**: `datafun-07-ml`  
+**Date**: June 2025  
+**GitHub Repo**: [View this project on GitHub](https://github.com/Kiruthikaa2512/datafun-07-ml)  
+
+## Project Overview
+
+In this module, we will initiate a hands-on guided project that explores foundational and applied topics in data science, including introductory machine learning concepts. The project will be developed using Jupyter notebooks for interactive exploration and documentation.
+
+We’ll begin by creating a GitHub repository—choose either `datafun-07-ml` or `datafun-07-applied`—to host and share our work. Simultaneously, we will set up the project locally to fully leverage our development tools.
+
+To support our workflow, we’ll create and manage a local virtual environment. We'll start by installing essential external packages such as `jupyterlab`, `numpy`, `pandas`, `pyarrow`, `matplotlib`, `seaborn`, and `scipy`. Additional dependencies may be added as the project evolves.
 
 ## **Local Machine Setup**
 ### **Step 1: Install Python (if not installed)**
